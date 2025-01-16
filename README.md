@@ -1,2 +1,2 @@
 # RetroCarShop
-Autos weboldal V.Domi, M.Akos
+Autos weboldal V.Domi, M.Ákos
