@@ -1,3 +1,24 @@
 body{
+
+}
+
+#banner{
+    height: 300px;
+    width: 100%;
     background-color: navy;
+
+}
+
+#card01{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+
+}
+
+#footer{
+    height: 300px;
+    width: 100%;
+    background-color: navy;
+
 }
