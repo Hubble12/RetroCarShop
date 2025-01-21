@@ -5,20 +5,20 @@ body{
 #banner{
     height: 300px;
     width: 100%;
-    background-color: navy;
+    background-color: black;
 
 }
 
 #card01{
-    height: 300px;
+    height: 1000px;
     width: 100%;
-    background-color: black;
+    background-color: gray;
 
 }
 
 #footer{
     height: 300px;
     width: 100%;
-    background-color: navy;
+    background-color: black;
 
 }
