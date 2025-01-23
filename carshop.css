@@ -1,5 +1,6 @@
 body{
     background-color: azure;
+    margin: 0%;
 }
 
 #banner{
@@ -23,6 +24,9 @@ body{
 
 }
 
+
+
+
 /*------------------------GRID-----------------------*/
 
 .grid_container{
@@ -40,6 +44,7 @@ body{
      font-size: 30px;
      height: 270px;
     text-align: center;
+    width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
