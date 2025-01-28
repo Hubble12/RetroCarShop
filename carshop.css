@@ -31,8 +31,8 @@ body{
 
 .grid_container{
     display: grid;
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 5%;
+    row-gap: 5%;
     grid-template-columns: auto auto auto ;
     padding: 60px;
 }
@@ -42,17 +42,17 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.8);
      padding: 20px;
      font-size: 30px;
-     height: 270px;
+     height: 87%;
     text-align: center;
-    width: 100%;
+    width: 87%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     .grid_container{
         grid-template-columns: auto auto ;
     }
     #card01{
-        height: 1500px;
+        height: 2000px;
     }
 
   }
@@ -62,7 +62,10 @@ body{
         grid-template-columns: auto ;
     }
     #card01{
-        height: 3000px;
+        height: 3620px;
+    }
+    .grid_container{
+        row-gap: 3%;
     }
 
   }
