@@ -11,7 +11,7 @@ body{
 }
 
 #card01{
-    height: 1300px;
+    height: 1800px;
     width: 100%;
     background-color: gray;
 
@@ -51,21 +51,53 @@ body{
 .grid_container{
     display: grid;
     column-gap: 5%;
-    row-gap: 5%;
+    row-gap: 40px;
     grid-template-columns: auto;
     padding: 60px;
 }
 
 .grid_item{
-    background-color: navy;
     border: 1px solid rgba(0, 0, 0, 0.8);
      padding: 20px;
      font-size: 30px;
-     height: 87%;
+     height: 300px;
      text-align: center;
      display: block;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
 }
 
+#g1{
+  background-image: url(kepek/supramk2.jpg);
+  background-size: 100%;
+  background-position: -22%;
+  background-repeat: no-repeat;
+}
+
+#g2{
+  background-image: url(kepek/ducati01.jpg);
+  background-size: 100%;
+  background-position: -22%;
+  /*filter: blur(4px)*/
+  background-repeat: no-repeat;
+}
+
+#g3{
+  background-image: url(kepek/contacts\ image2.jpg);
+  background-size: 50%;
+  background-position: 0%;
+  background-position-y: 90%;
+  background-repeat: no-repeat;
+  background-color: #010101;
+}
+
+#g4{
+  background-image: url(kepek/handshake.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: -22%;
+}
 
 
 
