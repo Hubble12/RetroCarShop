@@ -4,53 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroScout</title>
-    <link rel="stylesheet" href="carshop.css">
+    <link rel="stylesheet" href="copy kezdolap.css">
+    <script src="copytest.js"></script>
+
 </head>
 <body>
 
 
-    <div id="banner"></div>
+    <div id="banner"><div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Kezdőlap</a>
+        <a href="autok c verzio.html">Autók</a>
+        <a href="#">Motorok</a>
+        <a href="#">Elérhetőségek</a>
+        <a href="#">Szerződési feltételek</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+
+      </div></div>
+
+    
+
 
     <div id="card01">
 
         <div class="grid_container">
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/alpine a310.jpg" alt="" srcset="" id="kep1"></div>
-                <div class="grid_alitem"></div>
+            
+            <div class="grid_blocks">
+                <a href="autok c verzio.html">
+            <div class="grid_item" id="g1">
+
+                <h1 class="kezdolap_szovegek">Autók</h1>
+
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/beetle.jpg" alt="" srcset="" id="kep2"></div>
-                <div class="grid_alitem"></div>
+                  </a>
+            <div class="lap"></div>
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/delorean.jpg" alt="" srcset="" id="kep3"></div>
-                <div class="grid_alitem"></div>
+
+
+
+
+            <div class="grid_blocks">
+            <div class="grid_item" id="g2">
+
+                <h1 class="kezdolap_szovegek">Motorok</h1>
+
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/ferrarif40.jpg" alt="" srcset="" id="kep4"></div>
-                <div class="grid_alitem"></div>
+            <div class="lap"></div>
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/mazdarx7.jpg" alt="" srcset="" id="kep5"></div>
-                <div class="grid_alitem"></div>
+
+
+
+
+            <div class="grid_blocks">
+            <div class="grid_item" id="g3">
+
+                <h1 id="kezdolap_szovegek_spec">Elérhetőségek</h1>
+
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/nissan skyline r32.jpg" alt="" srcset="" id="kep6"></div>
-                <div class="grid_alitem"></div>
+            <div class="lap"></div>
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/porsche911carrera.jpg" alt="" srcset="" id="kep7"></div>
-                <div class="grid_alitem"></div>
+
+
+
+
+
+            <div class="grid_blocks">
+            <div class="grid_item" id="g4">
+
+                <h1 class="kezdolap_szovegek">Szerződési feltételek</h1>
+
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/supramk2.jpg" alt="" srcset="" id="kep8"></div>
-                <div class="grid_alitem"></div>
+            <div class="lap"></div>
+
             </div>
-            <div class="grid_item">
-                <div class="grid_felitem"><img src="kepek/truenoae86.jpg" alt="" srcset="" id="kep9"></div>
-                <div class="grid_alitem"></div>
-            </div>
-        </div>
+
+
+    </div>
 
 
 
@@ -60,6 +92,7 @@
 
     <div id="footer"></div>
 
-    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
 </body>
 </html>
