@@ -186,6 +186,26 @@ body{
     height: 100px;
   }
 
+  .infok_left{
+    width: 48%;
+    display: block;
+    float: left;
+    height: 100px;
+    opacity: 100%;
+
+  }
+
+  .infok_right{
+    width: 48%;
+    display: block;
+    float: right;
+    height: 100px;
+    opacity: 100%;
+    
+  }
+
+
+
 }
 
 /*.grid_alitem:oncl{
@@ -267,3 +287,36 @@ body{
   }
 
 
+
+
+
+
+  /*------------------------egyebek-------------------------------*/
+
+  .infok_left{
+    width: 48%;
+    display: block;
+    float: left;
+    background-color: darkgoldenrod;
+    height: 0px;
+    opacity: 0%;
+    text-align: left;
+    padding: 4px;
+    font-size: large;
+    color: white;
+
+  }
+
+  .infok_right{
+    width: 48%;
+    display: block;
+    float: right;
+    background-color: red;
+    height: 0px;
+    opacity: 0%;
+    text-align: left;
+    padding: 4px;
+    font-size: large;
+    color: white;
+    
+  }
