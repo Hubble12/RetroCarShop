@@ -109,7 +109,7 @@ body{
         grid-template-columns: auto ;
     }
     #card01{
-        height: 5200px;
+        height: 4500px;
     }
     .grid_container{
         row-gap: 3%;
