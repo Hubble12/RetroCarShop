@@ -6,7 +6,7 @@ body{
 #banner{
     height: 300px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(41, 40, 40);
     background-image: url(kepek/autologo.png);
     background-repeat: no-repeat;
     background-size: 40%;
@@ -14,17 +14,18 @@ body{
 
 }
 
+
 #card01{
     height: 1300px;
     width: 100%;
-    background-color: gray;
+    background-color: #9a2c35;
 
 }
 
 #footer{
     height: 300px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(41, 40, 40);
 
 }
 
@@ -35,9 +36,9 @@ body{
      bottom: 20px; /* Place the button at the bottom of the page */
      right: 10px; /* Place the button 30px from the right */
      z-index: 99; /* Make sure it does not overlap */
-     border: none; /* Remove borders */
+     border: 1px black solid; /* Remove borders */
      outline: none; /* Remove outline */
-     background-color: red; /* Set a background color */
+     background-color: #ff2235; /* Set a background color */
      color: white; /* Text color */
      cursor: pointer; /* Add a mouse pointer on hover */
      padding: 15px; /* Some padding */
@@ -83,7 +84,7 @@ body{
         grid-template-columns: auto auto ;
     }
     #card01{
-        height: 2400px;
+        height: 2300px;
     }
 
   }
@@ -96,14 +97,21 @@ body{
 
   @media only screen and (max-width: 900px) {
     #card01{
-      height: 2100px;
+      height: 2000px;
   }
 }
 
   @media only screen and (max-width: 800px) {
     #card01{
-      height: 1900px;
-  }
+      height: 1800px;
+    }
+  @media only screen and (max-width: 750px) {
+    #card01{
+      height: 1700px;
+    }
+
+  
+}
   
 
   }
@@ -123,43 +131,54 @@ body{
 
   @media only screen and (max-width: 670px) {
     #card01{
-      height: 4900px;
+      height: 4500px;
     }
   }
 
   @media only screen and (max-width: 627px) {
     #card01{
-      height: 4600px;
+      height: 4100px;
     }
   }
 
   @media only screen and (max-width: 570px) {
     #card01{
-      height: 4200px;
+      height: 3800px;
     }
   }
 
   @media only screen and (max-width: 520px) {
     #card01{
-      height: 3800px;
+      height: 3400px;
     }
   }
 
-  @media only screen and (max-width: 470px) {
+  @media only screen and (max-width: 480px) {
     #card01{
-      height: 3430px;
+      height: 3230px;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    #card01{
+      height: 3000px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    #card01{
+      height: 2900px;
     }
   }
 
   @media only screen and (max-width: 420px) {
     #card01{
-      height: 3100px;
+      height: 2800px;
     }
   }
 
   @media only screen and (max-width: 375px) {
     #card01{
-      height: 2800px;
+      height: 2600px;
     }
   }
 
@@ -204,7 +223,6 @@ body{
     float: right;
     height: 200px;
     opacity: 100%;
-    
   }
 }
 /*infok magasságát itt lehet változtatni*/
@@ -322,4 +340,9 @@ body{
     font-size: large;
     color: white;
     
+  }
+
+  .autokepek{
+    border: #111 solid 1px;
+  
   }
