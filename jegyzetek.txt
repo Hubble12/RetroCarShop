@@ -1,0 +1,2 @@
+elérhetőségek feliratok reszponzív méret 400 pixelig
+footer veglegesítés
