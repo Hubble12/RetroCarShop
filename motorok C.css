@@ -94,6 +94,10 @@ body{
     #card01{
       height: 2250px;
     }
+    #banner{
+      background-size: 60%;
+      background-position: 50%;
+    }
   }
 
   @media only screen and (max-width: 900px) {
@@ -134,16 +138,13 @@ body{
       height: 4600px;
     }
     #banner{
-      height: 300px;
-      width: 100%;
-      background-color: black;
-      background-image: url(kepek/autologo.png);
-      background-repeat: no-repeat;
-      background-size: 70%;
+      background-size: 85%;
       background-position: 50%;
+    }
+  }
   
-  }
-  }
+  
+  
 
   @media only screen and (max-width: 570px) {
     #card01{
@@ -155,6 +156,10 @@ body{
     #card01{
       height: 3800px;
     }
+    #banner{
+      background-size: 115%;
+      background-position: 50%;
+  }
   }
 
   @media only screen and (max-width: 470px) {

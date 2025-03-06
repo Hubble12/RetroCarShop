@@ -6,14 +6,13 @@ body{
 }
 
 #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/wallpaper01.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  background-image: url(kepek/autologo.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 50%;
 }
 
 h1{
@@ -154,17 +153,6 @@ h1{
     width: 0%;
     margin-left: 55%;
   }
-  #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/autologo.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 50%;
-  }
-
-
 }
 
 
@@ -186,7 +174,24 @@ h1{
   }
 }
 
-
+@media only screen and (max-width: 1000px) {
+  #banner{
+    background-size: 60%;
+    background-position: 50%;
+  }
+}
+@media only screen and (max-width: 627px) {
+  #banner{
+    background-size: 85%;
+    background-position: 50%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #banner{
+    background-size: 115%;
+    background-position: 50%;
+}
+}
 
 
   /*----------------------------------------media queries---------------------------------------------*/

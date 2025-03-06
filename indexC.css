@@ -11,9 +11,10 @@ body{
   background-color: black;
   background-image: url(kepek/autologo.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 45%;
   background-position: 50%;
 }
+
 
 #card01{
     height: 1800px;
@@ -159,7 +160,24 @@ body{
   height: 0px;
 }
 
-
+@media only screen and (max-width: 1000px) {
+  #banner{
+    background-size: 60%;
+    background-position: 50%;
+  }
+}
+@media only screen and (max-width: 627px) {
+  #banner{
+    background-size: 85%;
+    background-position: 50%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #banner{
+    background-size: 115%;
+    background-position: 50%;
+}
+}
 
 
   /*----------------------------------------media queries---------------------------------------------*/
@@ -333,15 +351,6 @@ a{
   .grid_item:hover{
     opacity: 100%;
   }
-  #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/autologo.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: 50%;
-  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -356,15 +365,7 @@ a{
   .grid_item:hover{
     opacity: 100%;
   }
-  #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/autologo.png);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: 50%;
-  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -423,15 +424,7 @@ a{
   #card01{
     height: 1300px;
   }
-  #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/autologo.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: 50%;
-  }
+
 
 }
 

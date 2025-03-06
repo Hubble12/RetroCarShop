@@ -11,7 +11,7 @@ body{
     background-color: rgb(41, 40, 40);
     background-image: url(kepek/autologo.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 45%;
     background-position: 50%;
 
 }
@@ -127,6 +127,10 @@ body{
     #card01{
       height: 2250px;
     }
+    #banner{
+      background-size: 60%;
+      background-position: 50%;
+  }
   }
 
   @media only screen and (max-width: 900px) {
@@ -166,6 +170,7 @@ body{
         row-gap: 3%;
     }
 
+
   }
 
   @media only screen and (max-width: 670px) {
@@ -179,14 +184,8 @@ body{
       height: 4100px;
     }
     #banner{
-      height: 300px;
-      width: 100%;
-      background-color: rgb(41, 40, 40);
-      background-image: url(kepek/autologo.png);
-      background-repeat: no-repeat;
-      background-size: 70%;
+      background-size: 85%;
       background-position: 50%;
-  
   }
   }
 
@@ -213,6 +212,10 @@ body{
     #card01{
       height: 3400px;
     }
+    #banner{
+      background-size: 115%;
+      background-position: 50%;
+  }
   }
 
   @media only screen and (max-width: 480px) {
