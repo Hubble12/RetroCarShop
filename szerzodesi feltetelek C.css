@@ -1,5 +1,7 @@
 body{
     background-color: grey;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* The sidebar menu */

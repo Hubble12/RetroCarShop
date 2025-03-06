@@ -1,6 +1,8 @@
 body{
     background-color: azure;
     margin: 0%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #banner{
@@ -43,7 +45,7 @@ h1{
     column-gap: 2%;
     row-gap: 2%;
     grid-template-columns: auto auto;
-    padding: 20px;
+    padding: 2px;
 
 }
 
@@ -447,13 +449,18 @@ a{
     .sidebar a {font-size: 18px;}
   }
 
-
+.gombtartok{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
   
 #altelgomb{
   width: 300px;
   height: 100px;
   display: inline;
   margin-top: 4%;
+
 }
 
 #almailgomb{
@@ -461,12 +468,39 @@ a{
   height: 100px;
   display: inline;
   margin-top: 4%;
+
 }
 
 @media only screen and (max-width: 900px) {
   #footer{
     grid-template-columns: auto;
 
+  }
+  #altelgomb{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  #almailgomb{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+}
+
+#instatext{
+
+}
+
+@media only screen and (max-width: 730px) {
+  #instatext{
+    font-size: 180%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  #instatext{
+    font-size: 160%;
   }
 
 }
