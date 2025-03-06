@@ -178,6 +178,16 @@ body{
     #card01{
       height: 4100px;
     }
+    #banner{
+      height: 300px;
+      width: 100%;
+      background-color: rgb(41, 40, 40);
+      background-image: url(kepek/autologo.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: 50%;
+  
+  }
   }
 
   @media only screen and (max-width: 570px) {
