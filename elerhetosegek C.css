@@ -146,6 +146,27 @@ h1{
     margin-left: 55%;
   }
 }
+@media only screen and (min-width: 400px) and (max-width:870px) {
+  #kezdolap_szovegek_spec{
+    color: white;
+    margin-top: 10%;
+    opacity: 0%;
+    width: 0%;
+    margin-left: 55%;
+  }
+  #banner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url(kepek/autologo.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+  }
+
+
+}
+
 
 
 .lap{

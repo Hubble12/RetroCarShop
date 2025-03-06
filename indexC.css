@@ -6,14 +6,13 @@ body{
 }
 
 #banner{
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    background-image: url(kepek/wallpaper01.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  background-image: url(kepek/autologo.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50%;
 }
 
 #card01{
@@ -88,7 +87,7 @@ body{
 }
 
 .grid_item{
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
      padding: 20px;
      font-size: 30px;
      height: 300px;
@@ -311,7 +310,17 @@ a{
 
 
 /*reszponzivitas*/
-
+/* @media only screen and(max-width:1100px){
+  #banner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url(kepek/autologo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+  }
+} */
 @media only screen and (max-width: 870px) {
   #kezdolap_szovegek_spec{
     color: white;
@@ -323,6 +332,15 @@ a{
   }
   .grid_item:hover{
     opacity: 100%;
+  }
+  #banner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url(kepek/autologo.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
   }
 }
 
@@ -337,6 +355,15 @@ a{
   }
   .grid_item:hover{
     opacity: 100%;
+  }
+  #banner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url(kepek/autologo.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 50%;
   }
 }
 
@@ -363,9 +390,7 @@ a{
     margin-left: auto;
     margin-right: auto;
   }
-  #banner{
-    background-position-y: 100%;
-  }
+
   .kezdolap_szovegek{
     font-size: 25px;
   }
@@ -397,6 +422,15 @@ a{
   }
   #card01{
     height: 1300px;
+  }
+  #banner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url(kepek/autologo.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50%;
   }
 
 }
