@@ -2,6 +2,7 @@ body{
   background-color: grey;
   max-width: 100%;
   overflow-x: hidden;
+  /*background-image: url(kepek/killerbean.gif);*/ /*easter egg*/
 }
 
 h1{
