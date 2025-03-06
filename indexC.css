@@ -354,7 +354,7 @@ a{
   }
 }
 
-@media only screen and (max-width: 399px) {
+@media only screen and (min-width: 400px) and (max-width:460px) {
   .grid_container{
     width: 70%;
   }
@@ -363,7 +363,41 @@ a{
     margin-left: auto;
     margin-right: auto;
   }
-    
+  #banner{
+    background-position-y: 100%;
+  }
+  .kezdolap_szovegek{
+    font-size: 25px;
+  }
+  #kezdolap_szovegek_spec{
+    font-size: 30px;
+    text-align: center;
+    /* padding-left: 5   */
+    padding-top: 25%;
+  }
+  #g1{
+    margin-top: 10%;
+    height: 100%;
+    border: none;
+  }
+  #g2{
+    margin-top: 20%;
+    height: 100%;
+    border: none;
+  }
+  #g3{
+    margin-top: 30%;
+    height: 100%;
+    border: none;
+  }
+  #g4{
+    margin-top: 30%;
+    height: 100%;
+    border: none;
+  }
+  #card01{
+    height: 1300px;
+  }
 
 }
 
