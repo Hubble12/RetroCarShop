@@ -29,7 +29,7 @@ h1{
     width: 100%;
     background-color: gray;
 
-    background-image: url(kepek/wallpaper01.png);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 40%;
@@ -84,17 +84,19 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.8);
      padding: 20px;
      font-size: 30px;
-     height: 300px;
+     height: 200px;
      text-align: center;
      display: block;
      width: 80%;
      margin-left: auto;
      margin-right: auto;
+     border-radius: 50px;
+
 }
 
 #g1{
   background-image: url(kepek/instagramlogo.png);
-  background-size: 45%;
+  background-size: 20%;
   background-position: 22%;
   background-repeat: no-repeat;
   background-color: #010101;
@@ -103,24 +105,23 @@ h1{
 
 #g2{
   background-image: url(kepek/facebooklogo.png);
-  background-size: 60%;
+  background-size: 30%;
   background-position: 22%;
   /*filter: blur(4px)*/
   background-repeat: no-repeat;
   background-color: #010101;
-  background-position-x: -20%;
+  background-position-x: -7%;
 
 }
 
 #g3{
   background-image: url(kepek/Xlogo.png);
-  background-size: 30%;
+  background-size: 20%;
   background-position: 0%;
   background-position-y: 50%;
   background-repeat: no-repeat;
   background-color: #010101;
-  background-position-x: 10%;
-
+  background-position-x: 1%;
 }
 
 #g4{
@@ -517,9 +518,9 @@ a{
 
 }
 
-#instatext{
+/* #instatext{
 
-}
+} */
 
 @media only screen and (max-width: 730px) {
   #instatext{
