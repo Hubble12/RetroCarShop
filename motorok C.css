@@ -17,7 +17,7 @@ body{
 }
 
 #card01{
-    height: 1700px;
+    height: 1500px;
     width: 100%;
     background-color: gray;
 
@@ -135,7 +135,7 @@ body{
 
   @media only screen and (max-width: 627px) {
     #card01{
-      height: 4600px;
+      height: 4400px;
     }
     #banner{
       background-size: 85%;
@@ -143,18 +143,16 @@ body{
     }
   }
   
-  
-  
 
   @media only screen and (max-width: 570px) {
     #card01{
-      height: 4200px;
+      height: 4000px;
     }
   }
 
   @media only screen and (max-width: 520px) {
     #card01{
-      height: 3800px;
+      height: 3700px;
     }
     #banner{
       background-size: 115%;
@@ -164,19 +162,19 @@ body{
 
   @media only screen and (max-width: 470px) {
     #card01{
-      height: 3430px;
+      height: 3230px;
     }
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 440px) {
     #card01{
       height: 3100px;
     }
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 420px) {
     #card01{
-      height: 2800px;
+      height: 2900px;
     }
   }
 
