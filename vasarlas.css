@@ -1,17 +1,45 @@
 body{
-    background-color: grey;
+    background-image: url(kepek/autologo.png);
+    background-color: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
     max-width: 100%;
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 1200px) {
+    body{
+        background-position-x: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+    body{
+        background-position-x: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+    body{
+        background-image: none;
+    }
+
+}
+
+
 h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 button{
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     height: 50px;
-    width: 100%;
+    width: 325px;
+    margin-top: 2px;
 }
 
 
@@ -22,6 +50,26 @@ a{
 }
 div{
     width: min-content;
-    margin-left: auto;
+    margin-left: 100px;
+    padding-left: 20px;
     margin-right: auto;
+    display: inline;
+}
+
+#adatok{
+    display: inline-block;
+    width: 100%;
+}
+
+#adatok_left{
+    width: 200px;
+
+}
+
+#adatok_right{
+    width: 200px;
+}
+
+table{
+    margin-left: 20px;
 }
