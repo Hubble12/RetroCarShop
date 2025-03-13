@@ -18,9 +18,9 @@ body{
 h1{
   text-align: right;
   color: white;
-  margin-top: 10%;
-  margin-bottom: auto;
-  margin-right: 10%;
+  /* margin-top: 10%; */
+  /* margin-bottom: auto; */
+  /* margin-right: 10%; */
   opacity: 0%;
 }
 
@@ -81,16 +81,18 @@ h1{
 }
 
 .grid_item{
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 5px solid transparent;
      padding: 20px;
      font-size: 30px;
      height: 200px;
      text-align: center;
      display: block;
-     width: 80%;
+     width: 60%;
      margin-left: auto;
      margin-right: auto;
-     border-radius: 50px;
+     border-radius: 1000px;
+     
+
 
 }
 
@@ -101,8 +103,21 @@ h1{
   background-repeat: no-repeat;
   background-color: #010101;
   background-position-x: left;
+  /* border: solid;  border-image: linear-gradient(to top, red, blue) 1 / 5px;  */
+  /* border-radius: 50px; */
 }
+#g1:hover{
+  border: 5px solid #cf2d8e;
 
+}
+#instatext{
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 6%;
+  /* margin-bottom: 5%; */
+}
 #g2{
   background-image: url(kepek/facebooklogo.png);
   background-size: 30%;
@@ -111,7 +126,16 @@ h1{
   background-repeat: no-repeat;
   background-color: #010101;
   background-position-x: -7%;
-
+}
+#g2:hover{
+  border: 5px solid #1064fc;
+}
+#facetext{
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 6%;
 }
 
 #g3{
@@ -122,6 +146,16 @@ h1{
   background-repeat: no-repeat;
   background-color: #010101;
   background-position-x: 1%;
+}
+#g3:hover{
+  border: 5px solid white;
+}
+#xtext{
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 6%;
 }
 
 #g4{
