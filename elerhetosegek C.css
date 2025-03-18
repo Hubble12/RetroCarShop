@@ -115,7 +115,7 @@ h1{
   margin: auto;
   width: 60%;
   padding: 10px;
-  margin-top: 6%;
+  margin-top:50px;
   /* margin-bottom: 5%; */
 }
 #g2{
@@ -135,7 +135,7 @@ h1{
   margin: auto;
   width: 60%;
   padding: 10px;
-  margin-top: 6%;
+  margin-top: 50px;
 }
 
 #g3{
@@ -155,7 +155,7 @@ h1{
   margin: auto;
   width: 60%;
   padding: 10px;
-  margin-top: 6%;
+  margin-top: 50px;
 }
 
 #g4{
@@ -171,9 +171,27 @@ h1{
   width: 100%;
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (max-width: 1000px) {
   #instatext{
     opacity: 0%;
+  }
+  #g1{
+    background-position: center;
+    background-size:60%;
+  }
+  #facetext{
+    opacity: 0%;
+  }
+  #g2{
+    background-position: center;
+    background-size:85%;
+  }
+  #xtext{
+    opacity: 0%;
+  }
+  #g3{
+    background-position: center;
+    background-size:50%;
   }
   .grid_blocks:hover{
     h1{
@@ -218,6 +236,28 @@ h1{
     margin-top: 17%;
   }
 } */
+@media only screen and(min-width:601px) and(max-width:870){
+  #g1{
+    background-size: 100%;
+  }
+  #g2{
+
+  }
+  #g3{
+
+  }
+}
+@media only screen and(max-width:600) and(min-width:400px){
+  #g1{
+    background-size: 80%;
+  }
+  #g2{
+
+  }
+  #g3{
+
+  }
+}
 @media only screen and (min-width: 400px) and (max-width:870px) {
   #kezdolap_szovegek_spec{
     color: white;
@@ -226,6 +266,8 @@ h1{
     width: 0%;
     margin-left: 55%;
   }
+
+
 }
 
 
