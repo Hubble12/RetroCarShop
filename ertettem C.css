@@ -33,6 +33,20 @@ div{
   margin-right: auto;
 }
 
+#fooldal1{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+
+}
+
+#fooldal2{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
 
 
 
