@@ -573,7 +573,7 @@ a{
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #8f8c8c;
+    background-color: transparent;
     color: white;
     padding: 10px 15px;
     border: none;
