@@ -33,12 +33,21 @@ div{
   margin-right: auto;
 }
 
+
+#gombkozep{
+  width: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
 #fooldal1{
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
   align-items: center;
   text-align: center;
+
 
 }
 
@@ -46,7 +55,11 @@ div{
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: beige;
 }
+
 
 
 
